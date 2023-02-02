@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spring_practice.spring_practice.service.MemberServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-02T12:09:05" hostname="hanseung-gyuui-MacBookPro.local" time="0.01">
+  <properties/>
+  <testcase name="join()" classname="spring_practice.spring_practice.service.MemberServiceTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
