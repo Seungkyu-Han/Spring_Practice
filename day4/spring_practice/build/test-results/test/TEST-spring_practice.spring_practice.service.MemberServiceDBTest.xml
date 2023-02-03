@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spring_practice.spring_practice.service.MemberServiceDBTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-03T07:24:16" hostname="hanseung-gyuui-MacBookPro.local" time="0.27">
+  <properties/>
+  <testcase name="join()" classname="spring_practice.spring_practice.service.MemberServiceDBTest" time="0.27"/>
+  <system-out><![CDATA[16:24:16.058 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [MemberServiceDBTest]: using SpringBootContextLoader
+16:24:16.061 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [spring_practice.spring_practice.service.MemberServiceDBTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:24:16.061 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [spring_practice.spring_practice.service.MemberServiceDBTest]: MemberServiceDBTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:24:16.072 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [MemberServiceDBTest]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+16:24:16.106 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/hanseung-gyu/Desktop/22-2/spring/review/day4/spring_practice/build/classes/java/main/spring_practice/spring_practice/SpringPracticeApplication.class]
+16:24:16.108 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration spring_practice.spring_practice.SpringPracticeApplication for test class spring_practice.spring_practice.service.MemberServiceDBTest
+16:24:16.159 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [MemberServiceDBTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+16:24:16.160 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [MemberServiceDBTest], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-02-03T16:24:16.287+09:00  INFO 1849 --- [    Test worker] s.s.service.MemberServiceDBTest          : Starting MemberServiceDBTest using Java 17.0.1 with PID 1849 (started by hanseung-gyu in /Users/hanseung-gyu/Desktop/22-2/spring/review/day4/spring_practice)
+2023-02-03T16:24:16.288+09:00  INFO 1849 --- [    Test worker] s.s.service.MemberServiceDBTest          : No active profile set, falling back to 1 default profile: "default"
+2023-02-03T16:24:16.920+09:00  INFO 1849 --- [    Test worker] s.s.service.MemberServiceDBTest          : Started MemberServiceDBTest in 0.737 seconds (process running for 1.271)
+2023-02-03T16:24:16.935+09:00  INFO 1849 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-03T16:24:16.984+09:00  INFO 1849 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/test user=SA
+2023-02-03T16:24:16.985+09:00  INFO 1849 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
