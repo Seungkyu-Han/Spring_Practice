@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "customerService" class="hello.core.customer.CustomerServiceImpl">
+        <constructor-arg name="customerRepository" ref="customerRepository"/>
+    </bean>
+
+    <bean id = "customerRepository" class="hello.core.customer.MemoryCustomerRepository"/>
+
+    <bean id = "orderService" class="hello.core.order.OrderServiceImpl">
+        <constructor-arg name="customerRepository" ref="customerRepository"/>
+        <constructor-arg name="discountPolicy" ref="discountPolicy"/>
+    </bean>
+
+    <bean id="discountPolicy" class="hello.core.Discount.RateDiscountPolicy"/>
+</beans>
